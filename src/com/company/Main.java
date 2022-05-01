@@ -25,7 +25,7 @@ public class Main {
         System.out.println(circles);
 
 
-        System.out.println(circles.getAverageSqaure());
+        System.out.println("\nAverage square of circles : "+circles.getAverageSqaure());
         System.out.println(circles.avaragereturn());
         Cone cone;
         double height=-1;
@@ -37,10 +37,11 @@ public class Main {
             cone = new Cone(side,height);
             cones.list.add(cone);
         }
+        System.out.println("Cones :  ");
         for (int i = 0; i < cones.list.size(); i++) {
             System.out.println(cones.list.get(i));
         }
-        System.out.println(cones.getLargestvolume());
+        System.out.println("\nThe largest volume of the cone : "+cones.getLargestvolume());
         System.out.println(cones.largestvolume());
     }
 }
